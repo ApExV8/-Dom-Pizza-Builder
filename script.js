@@ -127,3 +127,7 @@ document.querySelector('.btn.btn-sauce').onclick = function() {
 }
 
 // Iteration 2: Add click event listener on `<button class="btn btn-crust">`
+document.querySelector('.btn.btn-crust').onclick = function() {
+  state.glutenFreeCrust = !state.glutenFreeCrust
+  renderEverything()
+}
